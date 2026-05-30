@@ -14,6 +14,8 @@ TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 app = ApplicationBuilder().token(TOKEN).build()
 init_db()
 
+print(f"DEBUG: TOKEN = {TOKEN[:10] if TOKEN else 'None'}...")
+
 ADMIN_ID = 1657525561  # замени на свой Telegram ID
 
 def is_admin(user_id):
