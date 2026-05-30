@@ -1,7 +1,7 @@
 {
   "build": {
     "builder": "NIXPACKS",
-    "nixpacksVersion": "1.16.0"
+    "nixpacksVersion": "1.23.0"
   },
   "env": {
     "MISE_PYTHON_GITHUB_ATTESTATIONS": "false"
